@@ -1,6 +1,10 @@
 # import file and package
 from scripts import lyrics_extraction
+from scripts import csv_file
 import argparse
+
+
+csv_path = 'data/data_song.csv'
 
 
 def parse_arguments():
@@ -30,3 +34,5 @@ if __name__ == '__main__':
     args = parse_arguments()
     # run function from lyrics_extraction file
     data = lyrics_extraction.get_lyrics(args.artist, args.song)
+    # run function to save lyrics in csv_file
+    csv_file. write_data(csv_path, args.artist, args.song, data)
