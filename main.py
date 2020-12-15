@@ -1,9 +1,6 @@
-from lyrics import get_lyric
+# import file
+from scripts import lyrics_extraction
 
-artist = "Beatles"
-title= "Across the Universe"
-
-song = get_lyric(artist, title)
-
-print("{} by {}:".format(title, artist))
-print("{}".format(song))
+if __name__ == '__main__':
+    # run function from lyrics_extraction file
+    data = lyrics_extraction.get_lyrics("Rihanna", "Diamonds")
