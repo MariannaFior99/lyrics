@@ -35,3 +35,34 @@ In order to execute the ```main.py``` file, a few command line parameters must b
 - **-h, --help**: show required inputs;
 - **-q, --quiet**: disable reporting on warnings;
 - **-v, --verbose**: print detailed operations about the link operation.
+
+#### Retrieve last user research
+To display the last lyrics run:  ```$ python3 csv_reader.py```
+
+### Testing
+Tests on ```csv_reader.py``` are provided in ```test_csv_reader.py```.
+To run the tests do:
+```$ cd lyrics```
+```$ python3 -m unittest -v -b test_csv_reader.py```
+
+```
+test_empty_datafile (test_csv_reader.TestCSVReader) ... ok
+test_file_is_not_csv (test_csv_reader.TestCSVReader) ... ok
+test_no_datafile (test_csv_reader.TestCSVReader) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.007s
+
+OK
+```
+
+### References
+The API we use works on [lyrics.ovh](https://lyrics.ovh).
+
+### Authors
+- **Cabrele Sofia-872213**
+- **Corbetti Elena-873379**
+- **Fior Marianna-872571**
+
+### License 
+[GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
