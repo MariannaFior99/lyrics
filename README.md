@@ -1,20 +1,25 @@
-## Implementation of a Song Lyrics Fetcher
+# SARDE IN SAOR-Project
+
+### Get the lyrics of desired song! :notes:
+
+In this repository you can find a file named ```main.py``` that triggers the lyrics.ovh Lyrics API, retrieving the lyrics of a song you want giving the artist and title name!
+
+When you run the program for the first time executing the main file with: ```$ python3 main.py "Rihanna" "Diamonds"```, it will create a file ```data_song.csv``` located in ```data``` folder, containing the outputs requested.
+
+> **Note:** the project requires the following modules to run: *json, csv, pandas, unittest, argparse, os.
+
+It will give you results similar to the following table:
+ 
+|      artist     |       song       |                   lyric                   | 
+|-----------------|------------------|-------------------------------------------|
+|     Rihanna     |     Diamonds     |  Shine bright like a diamond              |
+|	              |                  |  Shine bright like a diamond              |
+|	              |                  |  Find light in the beautiful sea          |
+|	              |                  |  I choose to be happy                     |
+|		          |		             |	You and I, you and I                     |
+|                 |                  |  We're like diamonds in the sky           |
+|		          |		             |	...                                      | 
+|                 |                  |  Shine bright like a diamond              |
 
 
-In this repository you can find a file named ```lyrics.py``` that implements the ```get_lyric( artist, title)``` function. It queries the [lyrics.ovh](https://lyricsovh.docs.apiary.io/#) website to fetch the lyrics of a song ```title``` by the specified ```artist```.
-If you run the program, executing the main file with: ```python main.py``` it will give you results similar to the following: 
-
-```
-$ python main.py
-Across the Universe by Beatles:
-Words are flowing out like 
-Endless rain into a paper cup
-They slither wildly as they slip away across the universe.
-Pools of sorrow waves of joy
-Are drifting through my opened mind
-Possessing and caressing me.
-...
-```
-
-Note that the project requires the ```json``` and ```requests``` modules to run.
-
+> **Note:** additional lyrics will be added to the same file.
