@@ -23,3 +23,15 @@ It will give you results similar to the following table:
 
 
 > **Note:** additional lyrics will be added to the same file.
+
+
+### Command line parameters
+In order to execute the ```main.py``` file, a few command line parameters must be passed.
+#### Positional arguments
+- **artist**: The name of artist 
+- **song**: The title song you want the lyrics of
+
+#### Optional Argument
+- **-h, --help**: show required inputs;
+- **-q, --quiet**: disable reporting on warnings;
+- **-v, --verbose**: print detailed operations about the link operation.
