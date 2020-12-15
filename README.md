@@ -20,7 +20,7 @@ It will give you results similar to the following table:
 |                 |                  |  We're like diamonds in the sky           |
 |		          |		             |	...                                      | 
 |                 |                  |  Shine bright like a diamond              |
-
+|-----------------|------------------|-------------------------------------------|
 
 > **Note:** additional lyrics will be added to the same file.
 
